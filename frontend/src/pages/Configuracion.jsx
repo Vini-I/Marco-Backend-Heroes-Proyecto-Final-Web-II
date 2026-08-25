@@ -201,14 +201,6 @@ export default function Configuracion() {
         texto="SIGMA"
         navList={true}
         links={obtenerLinksNav(usuario, '/configuracion')}
-        buttonContent={
-          <Button
-            color="rojo"
-            tamano="pequeño"
-            onClick={logout}
-            texto="Cerrar sesion"
-          />
-        }
       />
 
       <div className="container-fluid px-4 py-2">
